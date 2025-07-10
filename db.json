@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "show_name": "The Return of Tiger | द रिटर्न ऑफ़ टाइगर",
+    "show_id": "sdgsgsaddgasdgsagdsag",
+    "image_url": ""
+  },
+  "components": [
+    {
+      "key": "assign_writer",
+      "label": "Assign a Writer",
+      "type": "searchable-dropdown",
+      "enabled": true,
+      "api_endpoint": "users"
+    },
+    {
+      "key": "writer",
+      "label": "Writer",
+      "type": "writer-card",
+      "sub_c": [
+        {
+          "key": "unassign_writer",
+          "label": "Unassign",
+          "type": "button",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "data": {
+    "writers": [
+      {
+        "email": "mithil.ray@pocketfm.com",
+        "name": "Mithil Kumar",
+        "user_id": "sadgdagsdagasdgdsgfghgfh"
+      },
+      {
+        "email": "mithil.ray@pocketfm.com",
+        "name": "Mithil Kumar",
+        "user_id": "sdgsadgsdgdsagsdagdsagasg"
+      }
+    ]
+  }
